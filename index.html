@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Pedro Passos</h2>
+                    <h3 class="profile__profession">Artista e desenvolvedor</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/soupedro/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/salespedro/" target="_blank" class="profile__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                        <a href="https://github.com/irrigador" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+125</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">85</h3>
+                        <p class="profile__info-description">
+                            Projects <br> Front-end 
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">20</h3>
+                        <p class="profile__info-description">Muros <br> Rabiscados</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=5584992010999&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://t.me/Pedrogpassos" target="_blank" class="button button__small button__gray">
+                            <i class="ri-telegram-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Sobre
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project7.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Projeto: Muros</span>
+                                    <h3 class="projects__title">Em tempo de pandemia</h3>
+                                    <a href="C:/Users/pedro/Desktop/Drops/Miniportifolio/react.html" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project8.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Projeto: Muros</span>
+                                    <h3 class="projects__title">Parede com apenas uma cor</h3>
+                                    <a href="C:/Users/pedro/Desktop/Drops/Miniportifolio/IA.html" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Projeto: Muros</span>
+                                    <h3 class="projects__title">Do pc para parede</h3>
+                                    <a href="C:/Users/pedro/Desktop/Drops/Miniportifolio/Figma.html" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Projeto: Muros</span>
+                                    <h3 class="projects__title">Da parede pro PC</h3>
+                                    <a href="C:/Users/pedro/Desktop/Drops/Miniportifolio/jogos.html" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project9.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Projeto: Muros</span>
+                                    <h3 class="projects__title">Landing Page</h3>
+                                    <a href="https://landingiichai.vercel.app/" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project13.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Figma</span>
+                                    <h3 class="projects__title">UI/UX: Game Page</h3>
+                                    <a href="https://www.figma.com/proto/qAA4TFkw0D103hWhbQNJvr/GameOnline?node-id=1%3A3&scaling=scale-down&page-id=0%3A1" class="projects__button button button__small" target="_blank">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+
+
+
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Projeto Muros</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">O Projeto</h3>
+                                            <span class="skills__level">O projeto Muros é uma iniciativa sem fins lucrativos que une arte e caridade para transformar vidas. Com o objetivo de ajudar crianças em situação de pobreza, o projeto convida grafiteiros de todo o mundo para criar obras de arte em muros e prédios em comunidades carentes. Além de trazer cor e vida para esses ambientes, o projeto também promove a educação e o desenvolvimento pessoal das crianças através de oficinas e programas de arte.</span>
+                                        </div>
+                                    </div>
+                                </div>
+          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Pedro Passos. All rigths reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
